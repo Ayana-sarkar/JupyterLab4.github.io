@@ -208,10 +208,7 @@
                 <div class="code-header">
                     
                 </div>
-                <div class="code-input">
-                    <span style="color: #64748b;">[1]:</span> import pandas as pd<br>
-                    <span style="color: #64748b;">[2]:</span> print("Welcome to JupyterLab!")
-                </div>
+                
                 <div class="code-output">
                     Welcome to JupyterLab!
                 </div>
