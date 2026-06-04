@@ -219,7 +219,7 @@
         </div>
     </section>
 
-    <section id="curriculum" class="curriculum">
+    <section id="curriculum" class="curriculum"style="background-color: #cc4e00;">
         <h2>What You'll Learn</h2>
         <div class="grid">
             <div class="card">
