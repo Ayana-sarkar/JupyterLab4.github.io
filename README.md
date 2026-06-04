@@ -103,7 +103,7 @@
             width: 100%;
         }
         .code-box {
-            background-color: var(--card-bg);
+            background-color:#cc4e00;
             border-radius: 8px;
             padding: 1.5rem;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
@@ -116,7 +116,7 @@
         }
         
         .code-input {
-            color: var(--accent-blue);
+            color:#cc4e00 ;
             font-family: 'Courier New', Courier, monospace;
             margin-bottom: 1rem;
         }
@@ -144,7 +144,7 @@
             gap: 2rem;
         }
         .card {
-            background-color: var(--card-bg);
+            background-color: #cc4e00;
             padding: 2rem;
             border-radius: 8px;
             border: 1px solid #334155;
@@ -206,9 +206,7 @@
         <div class="hero-visual">
             <div class="code-box">
                 <div class="code-header">
-                    <div class="dot dot-red"></div>
-                    <div class="dot dot-yellow"></div>
-                    <div class="dot dot-green"></div>
+                    
                 </div>
                 <div class="code-input">
                     <span style="color: #64748b;">[1]:</span> import pandas as pd<br>
