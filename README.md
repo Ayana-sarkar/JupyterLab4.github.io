@@ -23,7 +23,7 @@
         }
 
         body {
-            background-color: var(--bg-color);
+            background-color:#cc4e00;
             color: var(--text-main);
             line-height: 1.6;
         }
@@ -34,7 +34,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 1.5rem 10%;
-            background-color: rgba(15, 23, 42, 0.8);
+            background-color:rgb(180, 60, 0);
             backdrop-filter: blur(10px);
             position: sticky;
             top: 0;
@@ -114,14 +114,6 @@
             gap: 0.5rem;
             margin-bottom: 1rem;
         }
-        .dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-        }
-        .dot-red { background-color: #ef4444; }
-        .dot-yellow { background-color: #eab308; }
-        .dot-green { background-color: #22c55e; }
         
         .code-input {
             color: var(--accent-blue);
@@ -162,7 +154,7 @@
             transform: translateY(-5px);
         }
         .card h3 {
-            color: var(--accent-blue);
+            color: var(--accent-orange);
             margin-bottom: 1rem;
         }
 
