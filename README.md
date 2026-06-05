@@ -239,11 +239,15 @@
               Line11:: Draws gridlines (horizontal and vertical intersection lines) in the background.<br> 
                Line12: Searches the graph for any label properties (defined back in Line 7) and draws a little legend box in the corner, confirming that the red line represents sin(x).<br> 
                Line13: This command makes Matplotlib to take everything it built in the background and pop it up cleanly on your screen.The green part is just a comment that does not contribute to the graph.<br></p>
-               <img src="Screenshot 2026-02-27 171437.p" alt="Data Visualization" class="box-image">
+               <img src="Screenshot 2026-02-27 171437.png" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
-                <h3>2. Cells & Markdown</h3>
-                <p>Learn the difference between Code and Markdown cells. Format notes with headers, lists, and math equations.</p>
+                <h3>2. Multiple curves</h3>
+                <p>When plt.plot(...) is called for the first time in a cell (Line 5), Matplotlib initializes a new figure and a set of axes (the canvas). It  draws the first line (y1) onto it.Next, when plt.plot(...) is called a second time immediately after (Line 6), Matplotlib doesn't erase what it just did. Instead, it layers the new data directly on top of the existing canvas.<br> 
+
+                Line5: This takes the list of horizontal coordinates (x) and your first list of vertical coordinates (y1). It plots a linear straight line (y = x) . It assigns a name tag (label='y = x') to this specific line so the legend can identify it later.<br> 
+
+                Line6: Does the exact same thing-- This takes the same horizontal coordinates (x) but pairs them with your second list of vertical coordinates (y2). It gives this second line its own distinct name tag (label='y = x^2').<br></p>
             </div>
             <div class="card">
                 <h3>3. Keyboard Shortcuts</h3>
