@@ -251,8 +251,13 @@
                 Line6: Does the exact same thing-- This takes the same horizontal coordinates (x) but pairs them with your second list of vertical coordinates (y2). It gives this second line its own distinct name tag (label='y = x^2').<br></p>
             </div>
             <div class="card">
-                <h3>3. Keyboard Shortcuts</h3>
-                <p>Speed up your workflow drastically using Command and Edit modes, cell execution shortcuts, and deletions.</p>
+                <h3>3.Lets Plot the function f(x) = exp(−x) cos(2πx) for x ∈ [0, 5] using list comprehension</h3>
+                <img src="Screenshot 2026-02-08 102726.png" alt="Data Visualization" class="box-image">
+                <p>Line1: Matplotlib.pyplot is imported so that plt functions can be used<br> 
+                 Line2: Cos ,Pi, exponential are needed for the plot, so they are also imported.<br>  
+                 Line3: Here only 5 five values are taken for x (0,1,2,3,4). That’s why the curve not smooth.<br> 
+                Line4: the function is defined.<br>
+                Line5: x and y axes respectively, represent the x and corresponding f values. A red-solid line is used, and the curve is labelled as f(x).<br> </p>
             </div>
             <div class="card">
                 <h3>4. Data & Visuals</h3>
