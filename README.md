@@ -198,7 +198,7 @@
         </div>
     </nav>
 
-    <section> class="hero">
+    <section class="hero">
         <div class="hero-content">
             <h1>Master Data Science with <span>JupyterLab</span></h1>
             <p>Go from absolute beginner to writing interactive Python code, building data visualizations, and managing notebooks like a pro.</p>
@@ -217,7 +217,7 @@
         </div>
     </section>
 
-    <section id="curriculum" class="curriculum"style="background-color: #cc4e00;">
+    <section id="curriculum" class="curriculum" style="background-color: #cc4e00;">
        
         <div class="grid">
             <div class="card">
