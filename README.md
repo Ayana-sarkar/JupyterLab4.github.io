@@ -222,6 +222,7 @@
         <div class="grid">
             <div class="card">
                 <h3>1.Sine Function</h3>
+                <img src="Screenshot 2026-06-06 001335.png" alt="Data Visualization" class="box-image">
                 <p>Lines 1: This brings in Python's premier plotting library.<br> 
 
                Line2: his extracts the specific math components needed for a sine wave:<br> 
@@ -238,6 +239,7 @@
               Line11:: Draws gridlines (horizontal and vertical intersection lines) in the background.<br> 
                Line12: Searches the graph for any label properties (defined back in Line 7) and draws a little legend box in the corner, confirming that the red line represents sin(x).<br> 
                Line13: This command makes Matplotlib to take everything it built in the background and pop it up cleanly on your screen.The green part is just a comment that does not contribute to the graph.<br></p>
+               <img src="Screenshot 2026-02-27 171437.p" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
                 <h3>2. Cells & Markdown</h3>
