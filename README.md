@@ -218,10 +218,10 @@
     </section>
 
     <section id="curriculum" class="curriculum"style="background-color: #cc4e00;">
-        <h2>What You'll Learn</h2>
+       
         <div class="grid">
             <div class="card">
-                <h3>1.Sine Function</h3>
+                <h2>1.Sine Function</h2>
                 <img src="Screenshot 2026-06-06 001335.png" alt="Data Visualization" class="box-image">
                 <p>Lines 1: This brings in Python's premier plotting library.<br> 
 
@@ -242,7 +242,7 @@
                <img src="Screenshot 2026-02-27 171437.png" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
-                <h3>2. Multiple curves</h3>
+                <h2>2. Multiple curves</h2>
                  <img src="Screenshot 2026-02-27 171547.png" alt="Data Visualization" class="box-image">
                 <p>When plt.plot(...) is called for the first time in a cell (Line 5), Matplotlib initializes a new figure and a set of axes (the canvas). It  draws the first line (y1) onto it.Next, when plt.plot(...) is called a second time immediately after (Line 6), Matplotlib doesn't erase what it just did. Instead, it layers the new data directly on top of the existing canvas.<br> 
 
@@ -251,7 +251,7 @@
                 Line6: Does the exact same thing-- This takes the same horizontal coordinates (x) but pairs them with your second list of vertical coordinates (y2). It gives this second line its own distinct name tag (label='y = x^2').<br></p>
             </div>
             <div class="card">
-                <h3>3.Lets Plot the function f(x) = exp(−x) cos(2πx) for x ∈ [0, 5] using list comprehension</h3>
+                <h2>3.Lets Plot the function f(x) = exp(−x) cos(2πx) for x ∈ [0, 5] using list comprehension</h2>
                 <img src="Screenshot 2026-02-08 102726.png" alt="Data Visualization" class="box-image">
                 <p>Line1: Matplotlib.pyplot is imported so that plt functions can be used<br> 
                  Line2: Cos ,Pi, exponential are needed for the plot, so they are also imported.<br>  
@@ -260,8 +260,10 @@
                 Line5: x and y axes respectively, represent the x and corresponding f values. A red-solid line is used, and the curve is labelled as f(x).<br> </p>
             </div>
             <div class="card">
-                <h3>4. Data & Visuals</h3>
-                <p>Import CSVs, run Pandas operations, and render beautiful Matplotlib/Seaborn plots directly inside your notebook.</p>
+                <h2>4.Plot cos(x) and sin(x) in the same figure for x ∈ [0, 2π] </h2>
+                 <img src="creenshot 2026-02-08 110932.png" alt="Data Visualization" class="box-image">
+                <p>Line3: Range for x is taken from 0 to 62. This is a large number of points , so the graph is much smoother. The reason we kept the range till 62 because, it is important to take values of x from 0 to 2Pi (3.14 * 2=6.2)<br>
+                plt.legend made the little legend box pop in the corner, denoting the sinx and cosx lines.</p>
             </div>
         </div>
     </section>
