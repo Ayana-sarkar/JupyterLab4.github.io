@@ -243,6 +243,7 @@
             </div>
             <div class="card">
                 <h3>2. Multiple curves</h3>
+                 <img src="Screenshot 2026-02-27 171547.png" alt="Data Visualization" class="box-image">
                 <p>When plt.plot(...) is called for the first time in a cell (Line 5), Matplotlib initializes a new figure and a set of axes (the canvas). It  draws the first line (y1) onto it.Next, when plt.plot(...) is called a second time immediately after (Line 6), Matplotlib doesn't erase what it just did. Instead, it layers the new data directly on top of the existing canvas.<br> 
 
                 Line5: This takes the list of horizontal coordinates (x) and your first list of vertical coordinates (y1). It plots a linear straight line (y = x) . It assigns a name tag (label='y = x') to this specific line so the legend can identify it later.<br> 
