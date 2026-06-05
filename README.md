@@ -261,7 +261,7 @@
             </div>
             <div class="card">
                 <h2>4.Plot cos(x) and sin(x) in the same figure for x ∈ [0, 2π] </h2>
-                 <img src="creenshot 2026-02-08 110932.png" alt="Data Visualization" class="box-image">
+                 <img src="Screenshot 2026-02-08 110932.png" alt="Data Visualization" class="box-image">
                 <p>Line3: Range for x is taken from 0 to 62. This is a large number of points , so the graph is much smoother. The reason we kept the range till 62 because, it is important to take values of x from 0 to 2Pi (3.14 * 2=6.2)<br>
                 plt.legend made the little legend box pop in the corner, denoting the sinx and cosx lines.</p>
             </div>
