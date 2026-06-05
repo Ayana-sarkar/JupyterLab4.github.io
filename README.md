@@ -221,8 +221,23 @@
         <h2>What You'll Learn</h2>
         <div class="grid">
             <div class="card">
-                <h3>1. Interface & Setup</h3>
-                <p>Install Anaconda, launch JupyterLab, and master the left sidebar, file browser, and tabbed layouts.</p>
+                <h3>1.Sine Function</h3>
+                <p>Lines 1: This brings in Python's premier plotting library.<br> 
+
+               Line2: his extracts the specific math components needed for a sine wave:<br> 
+               Lines 4–5: A plot needs data points (x, y) to draw a line. These lines use list comprehensions (shorthand loops) to generate 200 distinct coordinate points.                <br> 
+             [Range(200) means i has values from 0 to 199]<br> 
+              Line 7: The Core Plotting Command<br> 
+                 This is the command that actually builds the graph in the background.<br> 
+                x, y: Tells it what coordinates to map.<br> 
+            'r-': A formatting shortcut meaning red - solid line.<br> 
+            label='sin(x)': Attaches a name tag to this specific line (crucial for the legend later).<br> 
+             linewidth=2: Makes the line thicker and easier to read.<br> 
+             Lines 8–9: Labels the horizontal and vertical axes so the viewer knows what the scales represents.<br> 
+               Line10: Adds a prominent title at the very top of the graph to declare what the entire visual represents.<br> 
+              Line11:: Draws gridlines (horizontal and vertical intersection lines) in the background.<br> 
+               Line12: Searches the graph for any label properties (defined back in Line 7) and draws a little legend box in the corner, confirming that the red line represents sin(x).<br> 
+               Line13: This command makes Matplotlib to take everything it built in the background and pop it up cleanly on your screen.The green part is just a comment that does not contribute to the graph.<br></p>
             </div>
             <div class="card">
                 <h3>2. Cells & Markdown</h3>
