@@ -267,7 +267,7 @@
             </div>
             <div class="card">
                 <h2>5.Using “linespace"</h2>
-                 <img src="" alt="Data Visualization" class="box-image">
+                 <img src="Screenshot 2026-02-08 112716.png" alt="Data Visualization" class="box-image">
                  <p>Line1-2: Numpy and MatplotLib are both imported here for computing.And the statements as np and as plt create aliases (shortcuts). <br> 
                     np tells Python: "Look inside the NumPy library." (e.g., np.sin() or np.linspace())<br>          
                     plt tells Python: "Look inside the Matplotlib plotting module." (e.g., plt.plot() or plt.grid())<br> 
