@@ -265,6 +265,14 @@
                 <p>Line3: Range for x is taken from 0 to 62. This is a large number of points , so the graph is much smoother. The reason we kept the range till 62 because, it is important to take values of x from 0 to 2Pi (3.14 * 2=6.2)<br>
                 plt.legend made the little legend box pop in the corner, denoting the sinx and cosx lines.</p>
             </div>
+            <div class="card">
+                <h2>5.Using “linespace"</h2>
+                 <img src="" alt="Data Visualization" class="box-image">
+                 <p>Line1-2: Numpy and MatplotLib are both imported here for computing.And the statements as np and as plt create aliases (shortcuts). <br> 
+                    np tells Python: "Look inside the NumPy library." (e.g., np.sin() or np.linspace())<br>          
+                    plt tells Python: "Look inside the Matplotlib plotting module." (e.g., plt.plot() or plt.grid())<br> 
+                    Line3: The linspace Command:<br> 
+                    np.linspace stands for "linear space",  it creates array. So, tvec becomes an array containing 100 numbers, starting exactly at 0, ending exactly at 10, all spaced perfectly apart (0, 0.101, 0.202, ... up to 10). It even includes the value 10 unlike range( ) .<br> Computerscannot actually draw smooth, continuous mathematical curves. Instead, they cheat by plotting a lot of tiny, individual straight lines between points so closely packed together that they look like a smooth curve to the human eye. By using 100 points, the sine waves look beautifully smooth. linspace is  useful because there is no need to figure out the exact decimal step size . <br> </p>
         </div>
     </section>
 
