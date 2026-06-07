@@ -195,9 +195,10 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Plotting with<span> Arrays</span></h1>
-            <hr>
             <p>Go from absolute beginner to writing interactive Python code, building data visualizations, and managing notebooks like a pro.</p>
              </div>
+    </section>
+    <section>
              <div class="button-group">
              <a href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Basic</a>
              <a href="https://ayana-sarkar.github.io/JupyterLab4.github.io/" class="btn">Plotting with List</a>
