@@ -67,20 +67,7 @@
         }
         
         }
-        .btn {
-            display: inline-block;
-            background: linear-gradient(135deg, var(--accent-orange), #ea580c);
-            color: white;
-            padding: 0.8rem 2rem;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 20px rgba(249, 115, 22, 0.4);
-        }
+       
         .hero-content, [class*="hero"] {
             width: 100% !important;
             max-width: 950px !important; 
@@ -102,6 +89,20 @@
             color: var(--text-muted);
             margin-bottom: 2rem;
             max-width: 800px; 
+        }
+         .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--accent-orange), #ea580c);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(249, 115, 22, 0.4);
         }
         /* Interactive Code Box Demo */
         .hero-visual {
@@ -207,7 +208,7 @@
     </section>
     <section>
              <div class="button-group">
-             <a href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Basic</a>
+             <button href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Basic</button>
              <a href="https://ayana-sarkar.github.io/JupyterLab4.github.io/" class="btn">Plotting with List</a>
             <a href="https://ayana-sarkar.github.io/JupyterLab5.github.io/" class="btn">Plotting with Arrays</a>
             <a href="https://ayana-sarkar.github.io/JupyterLab2.github.io/" class="btn">Interpolation</a>
@@ -215,8 +216,7 @@
     </section>
 
     <section id="curriculum" class="curriculum" style="background-color: #cc4e00;">
-       
-        <div class="grid">
+       <div class="grid">
             <div class="card">
                 <h2>1.Sine Function</h2>
                 <img src="Screenshot 2026-06-06 001335.png" alt="Data Visualization" class="box-image">
