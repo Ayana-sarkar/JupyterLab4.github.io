@@ -194,7 +194,7 @@
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Plotting with<span> Lists</span></h1>
+            <h1>Plotting with<span>Lists</span></h1>
             <p>In data science, scientific computing, and engineering, interpolation is a mathematical method used to estimate unknown values that fall between known data points. </p>
         </div>
     </section>
