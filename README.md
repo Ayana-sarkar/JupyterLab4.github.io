@@ -207,17 +207,6 @@
             <a href="https://ayana-sarkar.github.io/JupyterLab5.github.io/" class="btn">Plotting with Arrays</a>
             <a href="https://ayana-sarkar.github.io/JupyterLab2.github.io/" class="btn">Interpolation</a>
         </div>
-        <div class="hero-visual">
-            <div class="code-box">
-                <div class="code-header">
-                    
-                </div>
-                
-                <div class="code-output">
-                    Welcome to JupyterLab!
-                </div>
-            </div>
-        </div>
     </section>
 
     <section id="curriculum" class="curriculum" style="background-color: #cc4e00;">
