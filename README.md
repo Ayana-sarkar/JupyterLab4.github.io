@@ -202,7 +202,10 @@
         <div class="hero-content">
             <h1>Master Data Science with <span>JupyterLab</span></h1>
             <p>Go from absolute beginner to writing interactive Python code, building data visualizations, and managing notebooks like a pro.</p>
-            <a href="#curriculum" class="btn">Start Learning Free</a>
+            <a href=" https://ayana-sarkar.github.io/JupyterLab4.github.io/" class="btn">Plotting with List</a>
+            <a href=" " class="btn"></a>
+            <a href=" " class="btn"></a>
+            <a href="" class="btn"></a>
         </div>
         <div class="hero-visual">
             <div class="code-box">
