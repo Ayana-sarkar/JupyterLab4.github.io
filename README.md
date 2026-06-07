@@ -194,7 +194,7 @@
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Master Data Science with <span>JupyterLab</span></h1>
+            <h1>Plotting with<span> Arrays</span></h1>
             <p>Go from absolute beginner to writing interactive Python code, building data visualizations, and managing notebooks like a pro.</p>
              </div>
              <a href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Basic</a>
