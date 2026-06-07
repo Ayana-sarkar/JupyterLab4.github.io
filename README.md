@@ -194,9 +194,9 @@
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Plotting with<span> Arrays</span></h1>
-            <p>Go from absolute beginner to writing interactive Python code, building data visualizations, and managing notebooks like a pro.</p>
-             </div>
+            <h1>Plotting with<span> Lists</span></h1>
+            <p>In data science, scientific computing, and engineering, interpolation is a mathematical method used to estimate unknown values that fall between known data points. </p>
+        </div>
     </section>
     <section>
              <div class="button-group">
