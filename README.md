@@ -206,7 +206,7 @@
     </section>
     <section>
              <div class="button-group">
-             <a href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Basic</a>
+             <a href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Basics</a>
              <a href="https://ayana-sarkar.github.io/JupyterLab4.github.io/" class="btn">Plotting with List</a>
             <a href="https://ayana-sarkar.github.io/JupyterLab5.github.io/" class="btn">Plotting with Arrays</a>
             <a href="https://ayana-sarkar.github.io/JupyterLab2.github.io/" class="btn">Interpolation</a>
