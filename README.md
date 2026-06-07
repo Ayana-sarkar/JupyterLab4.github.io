@@ -65,8 +65,6 @@
             padding: 5rem 10%;
             min-height: 80vh;
         }
-        
-        }
        
         .hero-content, [class*="hero"] {
             width: 100% !important;
@@ -208,7 +206,7 @@
     </section>
     <section>
              <div class="button-group">
-             <button href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Basic</button>
+             <a href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Basic</a>
              <a href="https://ayana-sarkar.github.io/JupyterLab4.github.io/" class="btn">Plotting with List</a>
             <a href="https://ayana-sarkar.github.io/JupyterLab5.github.io/" class="btn">Plotting with Arrays</a>
             <a href="https://ayana-sarkar.github.io/JupyterLab2.github.io/" class="btn">Interpolation</a>
