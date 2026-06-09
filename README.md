@@ -214,14 +214,14 @@
             <div class="card">
                 <h2>1.Scatter Plot</h2>
                 <img src="Screenshot 2026-06-09 150323.png" alt="Data Visualization" class="box-image">
-                <p></p>
+                <p>
                 Line1: This imports the pyplot module from the matplotlib library, which is the standard tool for creating visualizations in Python.<br>
                 Line2,3:These two lines create Python lists containing your data points.Matplotlib maps these lists together by index. For example, the first data point plotted on the graph is at coordinates (5, 99), the second is at (7, 86), the third is at (8, 87), and so on.
                 Line4: This tells Matplotlib to generate a scatter plot using your data.<br>
                 x and y tell it which data to use for the horizontal and vertical axes.<br>
                 color='purple' changes the default blue dots to purple.<br>
                 Line5 :This adds the text "Age vs. Speed" right above the top center of the plot box so viewers know what the chart represents.<br>
-                Line6: This tells Python to finalize the figure and cleanly render it on your screen .It cleanly closes the plot object in the background and prevents annoying text summaries (like <matplotlib.collections.PathCollection at 0x... >)
+                Line6: This tells Python to finalize the figure and cleanly render it on your screen .It cleanly closes the plot object in the background and prevents annoying text summaries (like <matplotlib.collections.PathCollection at 0x... >)</p>
                 </div>
             <div class="card">
                 <h2>2.Sine Function</h2>
