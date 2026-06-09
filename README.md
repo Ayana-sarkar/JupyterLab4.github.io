@@ -193,7 +193,6 @@
     </style>
 </head>
 <body>
-
     <nav>
         <div class="logo">🚀 Learn<span>Jupyter</span></div>
     </nav>
@@ -207,12 +206,11 @@
             <a href="https://ayana-sarkar.github.io/JupyterLab1.github.io/" class="btn">Special func</a>
             <a href="https://ayana-sarkar.github.io/JupyterLab3.github.io/" class="btn">Let's Practice more!</a>
             <h1>Plotting with<span>Lists</span></h1>
-            <p>Plotting with lists in JupyterLab is incredibly straightforward, usually done using the Matplotlib library (specifically the pyplot module).</p>
+            <p>A list is used to store an ordered collection of items in a single variable.A list is defined by placing items inside square brackets [], separated by commas.Items can be change, add, or remove from a list.Lists can have multiple items with the same value (e.g., [1, 2, 2, 3]). Plotting with lists in JupyterLab is incredibly straightforward, usually done using the Matplotlib library (specifically the pyplot module).</p>
             </div>
-    </section>
+        </section>
 
     <section id="curriculum" class="curriculum" style="background-color: #cc4e00;">
-       <div class="grid">
             <div class="card">
                 <h2>1.Scatter Plot</h2>
                 <img src="Screenshot 2026-06-09 150323.png" alt="Data Visualization" class="box-image">
@@ -281,10 +279,5 @@
                     Computerscannot actually draw smooth, continuous mathematical curves. Instead, they cheat by plotting a lot of tiny, individual straight lines between points so closely packed together that they look like a smooth curve to the human eye. By using 100 points, the sine waves look beautifully smooth. linspace is  useful because there is no need to figure out the exact decimal step size . <br> </p>
         </div>
     </section>
-
-    <footer>
-        <p>&copy; 2026 LearnJupyter Course. Built for future Data Scientists.</p>
-    </footer>
-
 </body>
 </html>
