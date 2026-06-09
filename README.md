@@ -200,20 +200,33 @@
 
     <section class="hero">
         <div class="hero-content">
-            <p>In data science, scientific computing, and engineering, interpolation is a mathematical method used to estimate unknown values that fall between known data points. </p>
              <a href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Basics</a>
              <a href="https://ayana-sarkar.github.io/JupyterLab4.github.io/" class="btn">Plotting with List</a>
             <a href="https://ayana-sarkar.github.io/JupyterLab5.github.io/" class="btn">Plotting with Arrays</a>
             <a href="https://ayana-sarkar.github.io/JupyterLab2.github.io/" class="btn">Interpolation</a>
             <a href="https://ayana-sarkar.github.io/JupyterLab1.github.io/" class="btn">Special func</a>
+            <a href="https://ayana-sarkar.github.io/JupyterLab3.github.io/" class="btn">Let's Practice more!</a>
             <h1>Plotting with<span>Lists</span></h1>
+            <p>Plotting with lists in JupyterLab is incredibly straightforward, usually done using the Matplotlib library (specifically the pyplot module).</p>
             </div>
     </section>
 
     <section id="curriculum" class="curriculum" style="background-color: #cc4e00;">
        <div class="grid">
             <div class="card">
-                <h2>1.Sine Function</h2>
+                <h2>1.Scatter Plot</h2>
+                <img src="" alt="Data Visualization" class="box-image">
+                <p></p>
+                Line1: This imports the pyplot module from the matplotlib library, which is the standard tool for creating visualizations in Python.<br>
+                Line2,3:These two lines create Python lists containing your data points.Matplotlib maps these lists together by index. For example, the first data point plotted on the graph is at coordinates (5, 99), the second is at (7, 86), the third is at (8, 87), and so on.
+                Line4: This tells Matplotlib to generate a scatter plot using your data.<br>
+                x and y tell it which data to use for the horizontal and vertical axes.<br>
+                color='purple' changes the default blue dots to purple.<br>
+                Line5 :This adds the text "Age vs. Speed" right above the top center of the plot box so viewers know what the chart represents.<br>
+                Line6: This tells Python to finalize the figure and cleanly render it on your screen .It cleanly closes the plot object in the background and prevents annoying text summaries (like <matplotlib.collections.PathCollection at 0x... >)
+                </div>
+            <div class="card">
+                <h2>2.Sine Function</h2>
                 <img src="Screenshot 2026-06-06 001335.png" alt="Data Visualization" class="box-image">
                 <p>Lines 1: This brings in Python's premier plotting library.<br> 
 
@@ -234,7 +247,7 @@
                <img src="Screenshot 2026-02-27 171437.png" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
-                <h2>2. Multiple curves</h2>
+                <h2>3. Multiple curves</h2>
                  <img src="Screenshot 2026-02-27 171547.png" alt="Data Visualization" class="box-image">
                 <p>When plt.plot(...) is called for the first time in a cell (Line 5), Matplotlib initializes a new figure and a set of axes (the canvas). It  draws the first line (y1) onto it.Next, when plt.plot(...) is called a second time immediately after (Line 6), Matplotlib doesn't erase what it just did. Instead, it layers the new data directly on top of the existing canvas.<br> 
 
@@ -243,7 +256,7 @@
                 Line6: Does the exact same thing-- This takes the same horizontal coordinates (x) but pairs them with your second list of vertical coordinates (y2). It gives this second line its own distinct name tag (label='y = x^2').<br></p>
             </div>
             <div class="card">
-                <h2>3.Lets Plot the function f(x) = exp(−x) cos(2πx) for x ∈ [0, 5] using list comprehension</h2>
+                <h2>4.Lets Plot the function f(x) = exp(−x) cos(2πx) for x ∈ [0, 5] using list comprehension</h2>
                 <img src="Screenshot 2026-02-08 102726.png" alt="Data Visualization" class="box-image">
                 <p>Line1: Matplotlib.pyplot is imported so that plt functions can be used<br> 
                  Line2: Cos ,Pi, exponential are needed for the plot, so they are also imported.<br>  
@@ -252,13 +265,13 @@
                 Line5: x and y axes respectively, represent the x and corresponding f values. A red-solid line is used, and the curve is labelled as f(x).<br> </p>
             </div>
             <div class="card">
-                <h2>4.Plot cos(x) and sin(x) in the same figure for x ∈ [0, 2π] </h2>
+                <h2>5.Plot cos(x) and sin(x) in the same figure for x ∈ [0, 2π] </h2>
                  <img src="Screenshot 2026-02-08 110932.png" alt="Data Visualization" class="box-image">
                 <p>Line3: Range for x is taken from 0 to 62. This is a large number of points , so the graph is much smoother. The reason we kept the range till 62 because, it is important to take values of x from 0 to 2Pi (3.14 * 2=6.2)<br>
                 plt.legend made the little legend box pop in the corner, denoting the sinx and cosx lines.</p>
             </div>
             <div class="card">
-                <h2>5.Using “linespace"</h2>
+                <h2>6.Using “linespace"</h2>
                  <img src="Screenshot 2026-02-08 112716.png" alt="Data Visualization" class="box-image">
                  <p>Line1-2: Numpy and MatplotLib are both imported here for computing.And the statements as np and as plt create aliases (shortcuts). <br> 
                     np tells Python: "Look inside the NumPy library." (e.g., np.sin() or np.linspace())<br>          
