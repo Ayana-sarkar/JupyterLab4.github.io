@@ -215,7 +215,7 @@
        <div class="grid">
             <div class="card">
                 <h2>1.Scatter Plot</h2>
-                <img src="" alt="Data Visualization" class="box-image">
+                <img src="Screenshot 2026-06-09 150323.png" alt="Data Visualization" class="box-image">
                 <p></p>
                 Line1: This imports the pyplot module from the matplotlib library, which is the standard tool for creating visualizations in Python.<br>
                 Line2,3:These two lines create Python lists containing your data points.Matplotlib maps these lists together by index. For example, the first data point plotted on the graph is at coordinates (5, 99), the second is at (7, 86), the third is at (8, 87), and so on.
