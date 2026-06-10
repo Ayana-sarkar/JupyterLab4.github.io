@@ -216,7 +216,7 @@
                 <img src="Screenshot 2026-06-09 150323.png" alt="Data Visualization" class="box-image">
                 <p>
                 Line1: This imports the pyplot module from the matplotlib library, which is the standard tool for creating visualizations in Python.<br>
-                Line2,3:These two lines create Python lists containing your data points.Matplotlib maps these lists together by index. For example, the first data point plotted on the graph is at coordinates (5, 99), the second is at (7, 86), the third is at (8, 87), and so on.
+                Line2,3:These two lines create Python lists containing your data points.Matplotlib maps these lists together by index. For example, the first data point plotted on the graph is at coordinates (5, 99), the second is at (7, 86), the third is at (8, 87), and so on.<br>
                 Line4: This tells Matplotlib to generate a scatter plot using your data.<br>
                 x and y tell it which data to use for the horizontal and vertical axes.<br>
                 color='purple' changes the default blue dots to purple.<br>
@@ -228,7 +228,7 @@
                 <img src="Screenshot 2026-06-06 001335.png" alt="Data Visualization" class="box-image">
                 <p>Lines 1: This brings in Python's premier plotting library.<br> 
 
-               Line2: his extracts the specific math components needed for a sine wave:<br> 
+               Line2: This extracts the specific math components needed for a sine wave:<br> 
                Lines 4–5: A plot needs data points (x, y) to draw a line. These lines use list comprehensions (shorthand loops) to generate 200 distinct coordinate points.                <br> 
              [Range(200) means i has values from 0 to 199]<br> 
               Line 7: The Core Plotting Command<br> 
@@ -239,7 +239,7 @@
              linewidth=2: Makes the line thicker and easier to read.<br> 
              Lines 8–9: Labels the horizontal and vertical axes so the viewer knows what the scales represents.<br> 
                Line10: Adds a prominent title at the very top of the graph to declare what the entire visual represents.<br> 
-              Line11:: Draws gridlines (horizontal and vertical intersection lines) in the background.<br> 
+              Line11: Draws gridlines (horizontal and vertical intersection lines) in the background.<br> 
                Line12: Searches the graph for any label properties (defined back in Line 7) and draws a little legend box in the corner, confirming that the red line represents sin(x).<br> 
                Line13: This command makes Matplotlib to take everything it built in the background and pop it up cleanly on your screen.The green part is just a comment that does not contribute to the graph.<br></p>
                <img src="Screenshot 2026-02-27 171437.png" alt="Data Visualization" class="box-image">
@@ -269,15 +269,18 @@
                 plt.legend made the little legend box pop in the corner, denoting the sinx and cosx lines.</p>
             </div>
             <div class="card">
-                <h2>6.Using “linespace"</h2>
+                <h2>6.Using “linspace"</h2>
                  <img src="Screenshot 2026-02-08 112716.png" alt="Data Visualization" class="box-image">
                  <p>Line1-2: Numpy and MatplotLib are both imported here for computing.And the statements as np and as plt create aliases (shortcuts). <br> 
                     np tells Python: "Look inside the NumPy library." (e.g., np.sin() or np.linspace())<br>          
                     plt tells Python: "Look inside the Matplotlib plotting module." (e.g., plt.plot() or plt.grid())<br> 
                     Line3: The linspace Command:<br> 
                     np.linspace creates a NumPy array, which functionally acts as a mathematical vector. np.linspace stands for "linear space". So, tvec becomes an array containing 100 numbers, starting exactly at 0, ending exactly at 10, all spaced perfectly apart (0, 0.101, 0.202, ... up to 10). It even includes the value 10 unlike range( ) .<br> 
-                    Computerscannot actually draw smooth, continuous mathematical curves. Instead, they cheat by plotting a lot of tiny, individual straight lines between points so closely packed together that they look like a smooth curve to the human eye. By using 100 points, the sine waves look beautifully smooth. linspace is  useful because there is no need to figure out the exact decimal step size . <br> </p>
+                    Computers cannot actually draw smooth, continuous mathematical curves. Instead, they cheat by plotting a lot of tiny, individual straight lines between points so closely packed together that they look like a smooth curve to the human eye. By using 100 points, the sine waves look beautifully smooth. linspace is  useful because there is no need to figure out the exact decimal step size . <br> </p>
         </div>
     </section>
+    <footer>
+        <a href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Previous</a>
+        <a href="https://ayana-sarkar.github.io/JupyterLab5.github.io/" class="btn">Next</a>
 </body>
 </html>
