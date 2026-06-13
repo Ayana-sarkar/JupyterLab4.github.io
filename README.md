@@ -282,5 +282,6 @@
     <footer>
         <a href="https://ayana-sarkar.github.io/Home2.github.io/" class="btn">Previous</a>
         <a href="https://ayana-sarkar.github.io/JupyterLab5.github.io/" class="btn">Next</a>
+    </footer>
 </body>
 </html>
