@@ -206,7 +206,7 @@
             <a href="https://ayana-sarkar.github.io/JupyterLab1.github.io/" class="btn">Special func</a>
             <a href="https://ayana-sarkar.github.io/JupyterLab3.github.io/" class="btn">Let's Practice more!</a>
             <h1>Plotting with<span>Lists</span></h1>
-            <p>A list is used to store an ordered collection of items in a single variable.A list is defined by placing items inside square brackets [], separated by commas.Items can be change, add, or remove from a list.Lists can have multiple items with the same value (e.g., [1, 2, 2, 3]). Plotting with lists in JupyterLab is incredibly straightforward, usually done using the Matplotlib library (specifically the pyplot module).</p>
+            <p>A list is used to store an ordered collection of items in a single variable.A list is defined by placing items inside square brackets [], separated by commas.Items can be changed, added, or removed from a list. Lists can have multiple items with the same value (e.g., [1, 2, 2, 3]). Plotting with lists in JupyterLab is incredibly straightforward, usually done using the Matplotlib library (specifically the pyplot module).</p>
             </div>
         </section>
 
@@ -252,6 +252,7 @@
                 Line5: This takes the list of horizontal coordinates (x) and your first list of vertical coordinates (y1). It plots a linear straight line (y = x) . It assigns a name tag (label='y = x') to this specific line so the legend can identify it later.<br> 
 
                 Line6: Does the exact same thing-- This takes the same horizontal coordinates (x) but pairs them with your second list of vertical coordinates (y2). It gives this second line its own distinct name tag (label='y = x^2').<br></p>
+                <img src="Screenshot 2026-02-27 171547.png" alt="Data Visualization" class="box-image">
             </div>
             <div class="card">
                 <h2>4.Lets Plot the function f(x) = exp(−x) cos(2πx) for x ∈ [0, 5] using list comprehension</h2>
